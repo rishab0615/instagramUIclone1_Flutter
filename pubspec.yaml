@@ -1,0 +1,51 @@
+name: instagramfontpageui
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/icons/add.png
+    - assets/icons/bookmark.png
+    - assets/icons/chat.png
+    - assets/icons/icons8-chat-64.png
+    - assets/icons/icons8-ellipsis-60.png
+    - assets/icons/icons8-home-64.png
+    - assets/icons/icons8-instagram-reels-64.png
+    - assets/icons/icons8-male-user-64.png
+    - assets/icons/like.png
+    - assets/icons/search.png
+    - assets/icons/send.png
+    - assets/images/cropped_image (1).png
+    - assets/images/cropped_image (2).png
+    - assets/images/cropped_image (3).png
+    - assets/images/cropped_image (4).png
+    - assets/images/cropped_image (5).png
+    - assets/images/cropped_image.png
+    - assets/images/post1.jpg
+    - assets/images/pexels-tracehudson-2896668.jpg
+
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/billabong.ttf
+
+

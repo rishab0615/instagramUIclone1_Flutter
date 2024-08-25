@@ -13,7 +13,7 @@ class bottomNav extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          bNavIcon("assets/icons/icons8-home-64.png",(){Navigator.pushNamed(context,'/');}),
+          bNavIcon("assets/icons/icons8-home-64.png",(){Navigator.pushNamed(context,'/home');}),
           bNavIcon("assets/icons/search.png",(){Navigator.pushNamed(context,'/explore');}),
           bNavIcon("assets/icons/add.png",(){}),
           bNavIcon("assets/icons/icons8-instagram-reels-64.png",(){}),
